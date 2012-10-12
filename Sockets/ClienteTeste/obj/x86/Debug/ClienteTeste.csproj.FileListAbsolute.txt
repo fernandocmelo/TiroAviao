@@ -1,0 +1,14 @@
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\bin\Debug\ClienteTeste.exe
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\bin\Debug\ClienteTeste.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\bin\Debug\Sockets.dll
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\bin\Debug\Sockets.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.FormCliente.resources
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.Properties.Resources.resources
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.exe
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ClienteTeste\bin\Debug\Sockets.xml
+C:\Users\Shaman\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.exe
+C:\Users\Shaman\Desktop\Sockets\ClienteTeste\obj\x86\Debug\ClienteTeste.pdb

@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sockets</name>
+    </assembly>
+    <members>
+        <member name="F:Conexao.Cliente._tcpCliente">
+            <summary>
+            Conexão tcp do cliente
+            </summary>
+        </member>
+        <member name="F:Conexao.Cliente._threadLeitura">
+            <summary>
+            Thread que controla as mensagens recebidas do servidor
+            </summary>
+        </member>
+        <member name="F:Conexao.Cliente._codigoCliente">
+            <summary>
+            Identificador único do cliente
+            </summary>
+        </member>
+        <member name="F:Conexao.Cliente._stream">
+            <summary>
+            Fluxo de dados recebido pelo tcp
+            </summary>
+        </member>
+        <member name="M:Conexao.Cliente.Conectar(System.String,System.Int32)">
+            <summary>
+            Conecta-se ao servidor
+            </summary>
+            <param name="Ip">IP do servidor</param>
+            <param name="Porta">Porta do servidor</param>
+        </member>
+        <member name="M:Conexao.Cliente.Desconectar">
+            <summary>
+            Desconecta-se do servidor
+            </summary>
+        </member>
+        <member name="M:Conexao.Cliente.EscreverMensagem(System.String)">
+            <summary>
+            Envia mensagem para o servidor
+            </summary>
+            <param name="Mensagem">Mensagem enviada para o servidor</param>
+        </member>
+        <member name="M:Conexao.Cliente.aguardaMensagem">
+            <summary>
+            Aguarda receber dados do servidor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Conexao.Cliente.receberDados">
+            <summary>
+            Método para ficar esperando dados do servidor
+            </summary>
+        </member>
+        <member name="P:Conexao.Cliente.CodigoCliente">
+            <summary>
+            Retorna o código do cliente atribuído pelo servidor
+            </summary>
+        </member>
+        <member name="E:Conexao.Cliente.QuandoMensagemRecebida">
+            <summary>
+            Dispara este evento quando receber uma mensagem do servidor
+            </summary>
+        </member>
+        <member name="E:Conexao.Cliente.QuandoOcorrerErro">
+            <summary>
+            Dispara este evento quando ocorrer algum erro tratado na classe
+            </summary>
+        </member>
+        <member name="F:Conexao.Servidor._listenerServidor">
+            <summary>
+            Conexão do servidor
+            </summary>
+        </member>
+        <member name="F:Conexao.Servidor._threadConexao">
+            <summary>
+            Thread Usada para o servidor ouvir entradas dos clientes de forma não bloqueante
+            </summary>
+        </member>
+        <member name="F:Conexao.Servidor._listaClientes">
+            <summary>
+            Dicionario contendo a chave (identificador do cliente) e valor o socket cliente
+            </summary>
+        </member>
+        <member name="F:Conexao.Servidor._threadsLeitura">
+            <summary>
+            Threads usadas para a conexão de cada cliente
+            </summary>
+        </member>
+        <member name="F:Conexao.Servidor._chave">
+            <summary>
+            propriedade usada para contrar a chave unica atribuida a cada cliente
+            </summary>
+        </member>
+        <member name="M:Conexao.Servidor.AbrirConexao(System.String,System.Int32)">
+            <summary>
+            Servidor abre uma nova conexão na porta e ip informados
+            </summary>
+            <param name="Ip">IP utilizado para abrir conexão</param>
+            <param name="Porta">Porta utilizada para abrir conexão</param>
+        </member>
+        <member name="M:Conexao.Servidor.FecharConexao">
+            <summary>
+             Fecha todas as conexões dos clientes com o servidor e encerra a conexão do servidor
+            </summary>
+        </member>
+        <member name="M:Conexao.Servidor.EscreverParaTodos(System.String)">
+            <summary>
+            Propaga a mensagem para todos os clientes conectados no servidor.
+            </summary>
+            <param name="Mensagem">Mensagem enviada</param>
+        </member>
+        <member name="M:Conexao.Servidor.EscreverMensagem(System.Int32,System.String)">
+            <summary>
+            Escreve mensagem para o cliente
+            </summary>
+            <param name="CodigoCliente">Utiliza o identificado para localizar o socket</param>
+            <param name="Mensagem">Mensagem Enviada</param>
+        </member>
+        <member name="M:Conexao.Servidor.aguardarConexoes">
+            <summary>
+            Servidor inicia serviço para aguardar conexões de clientes. Após conexão do cliente o servidor já estará recebendo dados do cliente.
+            </summary>
+        </member>
+        <member name="M:Conexao.Servidor.escreverMensagem(System.Net.Sockets.Socket,System.String)">
+            <summary>
+            Escreve mensagem para o cliente
+            </summary>
+            <param name="Cliente">Socket para qual será enviada a mensagem</param>
+            <param name="Mensagem">Mensagem enviada</param>
+        </member>
+        <member name="M:Conexao.Servidor.distribuirConexao">
+            <summary>
+            Servidor fica aguarando conexões de clientes e cria uma nova thread de leitura de dados para cada cliente conectado.
+            </summary>
+        </member>
+        <member name="M:Conexao.Servidor.aguardaMensagem(System.Net.Sockets.Socket)">
+            <summary>
+            Recebe um socket por parâmetro e monitora a porta até receber uma mensagem.
+            </summary>
+            <param name="cliente">cliente que será monitorado</param>
+            <returns>Retorna mensagem recebida pelo cliente</returns>
+        </member>
+        <member name="M:Conexao.Servidor.lerDadosCliente(System.Object)">
+            <summary>
+            Responsavel por fazer a leitura do socket do cliente.
+            </summary>
+            <param name="o"></param>
+        </member>
+        <member name="P:Conexao.Servidor.ClientesConectados">
+            <summary>
+            Retorna lista com o código dos clientes conectados.
+            </summary>
+        </member>
+        <member name="E:Conexao.Servidor.QuandoMensagemRecebida">
+            <summary>
+            Evento disparado quando o servidor receber mensagem dos clientes
+            </summary>
+        </member>
+    </members>
+</doc>

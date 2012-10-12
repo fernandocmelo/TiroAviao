@@ -1,0 +1,6 @@
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\bin\Debug\Sockets.XML
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\bin\Debug\Sockets.dll
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\bin\Debug\Sockets.pdb
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\obj\Debug\Sockets.dll
+C:\Users\FelipeNote\Desktop\Sockets\Sockets\obj\Debug\Sockets.pdb

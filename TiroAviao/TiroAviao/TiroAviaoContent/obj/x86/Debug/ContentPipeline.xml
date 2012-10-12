@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-09-20T21:58:59.7115816-03:00</Time>
+    </Item>
+    <Item>
+      <Source>foreground.png</Source>
+      <Name>foreground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\foreground.xnb</Output>
+      <Time>2012-09-20T21:58:59.7155818-03:00</Time>
+    </Item>
+    <Item>
+      <Source>rocket.png</Source>
+      <Name>rocket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\rocket.xnb</Output>
+      <Time>2012-09-20T22:19:32.5720972-03:00</Time>
+    </Item>
+    <Item>
+      <Source>smoke.png</Source>
+      <Name>smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\smoke.xnb</Output>
+      <Time>2012-09-20T22:24:08.371872-03:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2012-09-20T22:40:23.9896742-03:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-09-20T22:12:36.3812924-03:00</Time>
+    </Item>
+    <Item>
+      <Source>aviao.png</Source>
+      <Name>aviao</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\aviao.xnb</Output>
+      <Time>2012-09-20T23:26:28.0927718-03:00</Time>
+    </Item>
+    <Item>
+      <Source>cannon.png</Source>
+      <Name>cannon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\cannon.xnb</Output>
+      <Time>2012-09-20T23:29:04.0856941-03:00</Time>
+    </Item>
+    <Item>
+      <Source>carriage.png</Source>
+      <Name>carriage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\carriage.xnb</Output>
+      <Time>2012-09-20T23:29:04.0966947-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviaoContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviaoContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviao\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-09-20T14:39:36.6401937-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Conexao.Servidor">
+    <Position X="0.5" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QggABAAAEAAQABAAAAAgAAAACAAAAAAQQAEDEQAAIAQ=</HashCode>
+      <FileName>Servidor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conexao.LeituraEventArgs">
+    <Position X="4" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LeituraEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conexao.Cliente">
+    <Position X="7.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAEABAAAAAAQAgIAAIIAAAAAABAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conexao.ErroConexaoException">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErroConexaoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="Conexao.ReceberMensagem">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LeituraEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

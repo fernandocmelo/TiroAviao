@@ -1,0 +1,2 @@
+C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviao\TiroAviao\TiroAviaoContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eliseu\Desktop\Sistemas Distribuídos\Trabalho Sockets\TiroAviaoCustom\TiroAviao\TiroAviaoContent\obj\x86\Debug\ResolveAssemblyReference.cache

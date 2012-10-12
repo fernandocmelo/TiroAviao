@@ -1,0 +1,12 @@
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\bin\Debug\ServidorTeste.exe
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\bin\Debug\ServidorTeste.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\ServidorTeste.FormServidor.resources
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\ServidorTeste.Properties.Resources.resources
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\ServidorTeste.exe
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\obj\x86\Debug\ServidorTeste.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\bin\Debug\Sockets.dll
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\bin\Debug\Sockets.pdb
+C:\Users\FelipeNote\Desktop\Sockets\ServidorTeste\bin\Debug\Sockets.xml
